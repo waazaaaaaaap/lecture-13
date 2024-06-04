@@ -1,0 +1,160 @@
+body {
+	background-color: #F5F5F5;
+    overflow-x: hidden;
+}
+header {
+    padding: 21px 0;
+    
+    .container {
+        width: 1170px;
+        margin-left: 138px;
+        display: flex;
+        justify-content: flex-start;
+        
+        nav {
+            display: flex;
+            align-items: center;
+            
+            ul {
+                display: flex;
+                align-items: center;
+                gap: 35px;
+
+                li {
+                    list-style: none;
+
+                    a {
+                        @include navstyle;
+                    }
+
+                }
+            }
+        }
+    }
+}
+.s-1{
+    margin-left: 137px;
+    margin-top: 42px;
+    width: 1320px;
+
+    .title1{
+        @include title;
+    }
+    
+    .container2{
+        max-width: 1166px;
+        width: 100%;
+
+        .wrapper{
+            display: flex;
+            justify-content: space-between;
+
+            .card1{
+                @include card1;
+                
+                h2{
+                    @include cardtitle;
+                }
+
+                .text-area{
+                    @include text-area;
+                }
+                .ptext{
+                    @include ptext;
+                }
+                .clock {
+                    display: inline-block;
+                    padding-top: 11px;
+                }
+                .nexttoclock{
+                    @include next-to-clock;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+// MEORE SEQCIA START
+
+.s2{
+    margin-left: 137px;
+    margin-top: 42px;
+    width: 1320px;
+    .title1{
+        @include title;
+    }
+
+    .bigphotos {
+        display: inline-block;
+        width: 758px;
+
+            .big1{
+                position: relative;
+                display: inline-block;
+                h3{
+                    @include biggest-photo-title
+                }
+            }
+            .big2 {
+                margin-top: 42px;
+            }
+        }
+    }
+
+
+// MESAME SEQCIA (PATARA) START
+
+.small {
+    padding-bottom: 98px;
+}
+
+
+.s3 {
+   width: 367px;
+   display: inline-block;
+   vertical-align: top;
+   margin-left: 45px;
+   margin-top: 30px;
+}
+
+
+footer{
+    background-color: #243043;
+    width: 1440px;
+    height: 201px;
+    margin-top: 36px;
+    display: inline-block;
+
+    .fullfooter {
+        height: 201px;
+        position: relative;
+        display: inline-block;
+    }
+    
+    .div1 {
+        display: inline-block;
+        vertical-align: left;
+        width: 54px;
+        padding-top: 59px;
+        padding-bottom: 44px;
+        padding-left: 137px;
+    }
+    
+    h5 {
+        @include list;
+    }
+    
+    h6 {
+        @include slogan;
+    }
+    
+    .bu {
+        position: absolute;
+        display: inline-block;
+        top: 58px;
+        left: 1264px;
+    }
+}

@@ -1,0 +1,102 @@
+@mixin navstyle{
+    color: #000;
+    font-family: Roboto, sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+@mixin title{
+    color: #000;
+    font-family: Roboto, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 27px;
+}
+
+//FIRST CARD MIXINS
+@mixin card1{
+    display: inline-block;
+	position: relative;
+	width: 362px;
+	margin-right: 40px;
+}
+
+@mixin cardtitle{
+    position: absolute;
+	top: 32px;
+	left: 41px;
+    color: #FFF;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+@mixin text-area{
+    padding-top: 68px;
+	padding-bottom: 41px;
+	padding-left: 37px;
+	padding-right: 87px;
+	width: 362px;
+	background-color: #FFFFFF;
+}
+
+@mixin ptext{
+    width: 238px;
+	font-size: 10px;
+	font-family: 'Roboto', sans-serif;
+	line-height: 2.2;
+	color: #8A8787;
+}
+
+@mixin next-to-clock{
+    display: inline-block;
+	font-size: 10px;
+	font-family: 'Roboto', sans-serif;
+	padding-top: 14px;
+	vertical-align: top;
+	color: #8A8787;
+}
+
+// MEORE SEQCIA START
+
+@mixin biggest-photo-title{
+    position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+}
+
+// FOOTER
+
+@mixin list{
+    color: #818687;
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 14px;
+}
+
+@mixin slogan{
+    position: absolute;
+    display: inline-block;
+    width: 260px;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    top: 59px;
+    left: 599px;
+}

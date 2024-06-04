@@ -1,0 +1,259 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F5F5F5;
+  overflow-x: hidden;
+}
+
+header {
+  padding: 21px 0;
+}
+header .container {
+  width: 1170px;
+  margin-left: 138px;
+  display: flex;
+  justify-content: flex-start;
+}
+header .container nav {
+  display: flex;
+  align-items: center;
+}
+header .container nav ul {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+header .container nav ul li {
+  list-style: none;
+}
+header .container nav ul li a {
+  color: #000;
+  font-family: Roboto, sans-serif;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: inline-block;
+  vertical-align: middle;
+  text-decoration: none;
+}
+
+.s-1 {
+  margin-left: 137px;
+  margin-top: 42px;
+  width: 1320px;
+}
+.s-1 .title1 {
+  color: #000;
+  font-family: Roboto, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-bottom: 27px;
+}
+.s-1 .container2 {
+  max-width: 1166px;
+  width: 100%;
+}
+.s-1 .container2 .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.s-1 .container2 .wrapper .card1 {
+  display: inline-block;
+  position: relative;
+  width: 362px;
+  margin-right: 40px;
+}
+.s-1 .container2 .wrapper .card1 h2 {
+  position: absolute;
+  top: 32px;
+  left: 41px;
+  color: #FFF;
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.s-1 .container2 .wrapper .card1 .text-area {
+  padding-top: 68px;
+  padding-bottom: 41px;
+  padding-left: 37px;
+  padding-right: 87px;
+  width: 362px;
+  background-color: #FFFFFF;
+}
+.s-1 .container2 .wrapper .card1 .ptext {
+  width: 238px;
+  font-size: 10px;
+  font-family: "Roboto", sans-serif;
+  line-height: 2.2;
+  color: #8A8787;
+}
+.s-1 .container2 .wrapper .card1 .clock {
+  display: inline-block;
+  padding-top: 11px;
+}
+.s-1 .container2 .wrapper .card1 .nexttoclock {
+  display: inline-block;
+  font-size: 10px;
+  font-family: "Roboto", sans-serif;
+  padding-top: 14px;
+  vertical-align: top;
+  color: #8A8787;
+}
+
+.s2 {
+  margin-left: 137px;
+  margin-top: 42px;
+  width: 1320px;
+}
+.s2 .title1 {
+  color: #000;
+  font-family: Roboto, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-bottom: 27px;
+}
+.s2 .bigphotos {
+  display: inline-block;
+  width: 758px;
+}
+.s2 .bigphotos .big1 {
+  position: relative;
+  display: inline-block;
+}
+.s2 .bigphotos .big1 h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+.s2 .bigphotos .big2 {
+  margin-top: 42px;
+}
+
+.small {
+  padding-bottom: 98px;
+}
+
+.s3 {
+  width: 367px;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 45px;
+  margin-top: 30px;
+}
+
+footer {
+  background-color: #243043;
+  width: 1440px;
+  height: 201px;
+  margin-top: 36px;
+  display: inline-block;
+}
+footer .fullfooter {
+  height: 201px;
+  position: relative;
+  display: inline-block;
+}
+footer .div1 {
+  display: inline-block;
+  vertical-align: left;
+  width: 54px;
+  padding-top: 59px;
+  padding-bottom: 44px;
+  padding-left: 137px;
+}
+footer h5 {
+  color: #818687;
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-bottom: 14px;
+}
+footer h6 {
+  position: absolute;
+  display: inline-block;
+  width: 260px;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  top: 59px;
+  left: 599px;
+}
+footer .bu {
+  position: absolute;
+  display: inline-block;
+  top: 58px;
+  left: 1264px;
+}/*# sourceMappingURL=global.css.map */
